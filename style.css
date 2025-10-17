@@ -250,3 +250,23 @@ a {
   color: rgb(255, 0, 0);
 }
 /* !Categoy------------------- */
+
+
+
+
+@media (max-width: 635px){
+    .content-3{
+      display: none;
+    }
+}
+
+
+@media (max-width: 635px){
+    .content-2{
+      grid-column: 1/5;
+      
+     
+       
+    }
+}
+

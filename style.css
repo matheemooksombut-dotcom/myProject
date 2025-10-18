@@ -270,3 +270,12 @@ a {
     }
 }
 
+
+@media (max-width: 1253px){
+  .content{
+    margin: 0px;
+  }
+  
+}
+
+

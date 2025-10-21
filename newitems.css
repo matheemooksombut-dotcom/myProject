@@ -5,7 +5,6 @@ body {
   margin-top: 20px;
   width: 100%;
   max-width: 1200px;
-
 }
 /*! nav--------------------------  */
 
@@ -23,7 +22,8 @@ body {
   font-size: large;
 }
 /*! --------------------------  */
-.brand,.content {
+.brand,
+.content {
   width: 100%;
   max-width: 1200px; /* ป้องกันไม่ให้กว้างเกิน */
   margin: 0 auto;
@@ -123,8 +123,6 @@ body {
 
 /* !______________________________________________________ */
 
-
-
 /*! content__________________________________________________  */
 
 .content {
@@ -142,8 +140,7 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 10px;
-  
- 
+
   grid-column: 1/5;
   grid-row: auto;
   background-color: burlywood;
@@ -156,8 +153,6 @@ body {
 
 /*!__________________________________________________  */
 
-
-
 /* !brand row________________________________*/
 
 .brand {
@@ -168,163 +163,125 @@ body {
   justify-content: space-evenly;
 }
 
-
-
 .brand2 {
   display: flex;
   flex-direction: row;
   gap: 30px;
   /* justify-content: center; */
-  
-  
+
   justify-content: space-evenly;
 }
-
 
 .brand3 {
   display: flex;
   flex-direction: row;
   gap: 30px;
   /* justify-content: center; */
-  
-  
+
   justify-content: space-evenly;
 }
 
-
 /* !________________________________*/
-
-
 
 /* ! BoxBrand___________________________ */
 
-.brand-1{
+.brand-1 {
   width: 200px;
   height: 200px;
   background-color: rgb(0, 0, 0);
   opacity: 0.6;
   border-radius: 30px;
-
 }
 
-.brand-2{
+.brand-2 {
   width: 200px;
   height: 200px;
   background-color: rgb(0, 0, 0);
   opacity: 0.6;
   border-radius: 30px;
-
 }
 
-.brand-3{
+.brand-3 {
   width: 200px;
   height: 200px;
   background-color: rgb(0, 0, 0);
   opacity: 0.6;
   border-radius: 30px;
-
-
-
 }
 
-.brand-4{
+.brand-4 {
   width: 200px;
   height: 200px;
   background-color: rgb(0, 0, 0);
   opacity: 0.6;
   border-radius: 30px;
-
 }
 
-
-
-
-.brand2-1{
+.brand2-1 {
   width: 200px;
   height: 200px;
   background-color: rgb(0, 0, 0);
   opacity: 0.6;
   border-radius: 30px;
-
 }
 
-
-
-.brand2-2{
+.brand2-2 {
   width: 200px;
   height: 200px;
   background-color: rgb(0, 0, 0);
   opacity: 0.6;
   border-radius: 30px;
-
 }
 
-.brand2-3{
+.brand2-3 {
   width: 200px;
   height: 200px;
   background-color: rgb(0, 0, 0);
   opacity: 0.6;
   border-radius: 30px;
-
 }
 
-
-.brand2-4{
+.brand2-4 {
   width: 200px;
   height: 200px;
   background-color: rgb(0, 0, 0);
   opacity: 0.6;
   border-radius: 30px;
-
 }
 
-
-
-.brand3-1{
+.brand3-1 {
   width: 200px;
   height: 200px;
   background-color: rgb(0, 0, 0);
   opacity: 0.6;
   border-radius: 30px;
-
 }
 
-
-
-.brand3-2{
+.brand3-2 {
   width: 200px;
   height: 200px;
   background-color: rgb(0, 0, 0);
   opacity: 0.6;
   border-radius: 30px;
-
 }
 
-.brand3-3{
+.brand3-3 {
   width: 200px;
   height: 200px;
   background-color: rgb(0, 0, 0);
   opacity: 0.6;
   border-radius: 30px;
-
 }
 
-
-.brand3-4{
+.brand3-4 {
   width: 200px;
   height: 200px;
   background-color: rgb(0, 0, 0);
   opacity: 0.6;
   border-radius: 30px;
-
 }
 
 /* !___________________________ */
-
-
-
-
-
 
 /* ! Animation_____________________________________ */
 .brand-1:hover {
@@ -333,7 +290,6 @@ body {
   transition: 1s;
   opacity: 1;
 }
-
 
 .brand-2:hover {
   transform: scale(1.2);
@@ -346,101 +302,75 @@ body {
   opacity: 1;
 }
 
-
 .brand-4:hover {
- transform: scale(1.2);
-  transition: 1s;
-  opacity: 1;
-}
-
-
-
-
-.brand2-1:hover{
   transform: scale(1.2);
   transition: 1s;
   opacity: 1;
-
 }
 
-
-
-.brand2-2:hover{
+.brand2-1:hover {
   transform: scale(1.2);
   transition: 1s;
   opacity: 1;
-
 }
 
-
-
-.brand2-3:hover{
+.brand2-2:hover {
   transform: scale(1.2);
   transition: 1s;
   opacity: 1;
-
 }
 
-
-.brand2-4:hover{
+.brand2-3:hover {
   transform: scale(1.2);
   transition: 1s;
   opacity: 1;
-
 }
 
-
-.brand3-1:hover{
+.brand2-4:hover {
   transform: scale(1.2);
   transition: 1s;
   opacity: 1;
-
 }
 
-.brand3-2:hover{
+.brand3-1:hover {
   transform: scale(1.2);
   transition: 1s;
   opacity: 1;
-
 }
 
-.brand3-3:hover{
+.brand3-2:hover {
   transform: scale(1.2);
   transition: 1s;
   opacity: 1;
-
 }
 
-.brand3-4:hover{
+.brand3-3:hover {
   transform: scale(1.2);
   transition: 1s;
   opacity: 1;
-
 }
 
-
-.hero{
-    font-size: larger;
-    text-decoration: none;
-    color: black;
+.brand3-4:hover {
+  transform: scale(1.2);
+  transition: 1s;
+  opacity: 1;
 }
 
-
-.hero:hover{
-    color: brown;
+.hero {
+  font-size: larger;
+  text-decoration: none;
+  color: black;
 }
 
+.hero:hover {
+  color: brown;
+}
 
 a {
   text-decoration: none;
   color: black;
 }
 /* ! __________________________________________________ */
-
-
-
-
-
 
 .unicon {
   color: brown;
@@ -449,28 +379,20 @@ a {
   color: rgb(255, 0, 0);
 }
 
-
-
 /* !Responsive___________________________________________*/
-@media (max-width: 635px){
-    .content-3{
-      display: none;
-    }
+@media (max-width: 635px) {
+  .content-3 {
+    display: none;
+  }
 }
-@media (max-width: 635px){
-    .content-2{
-      grid-column: 1/5;
-      
-     
-       
-    }
+@media (max-width: 635px) {
+  .content-2 {
+    grid-column: 1/5;
+  }
 }
-@media (max-width: 1253px){
-  .content{
+@media (max-width: 1253px) {
+  .content {
     margin: 0px;
   }
-  
 }
-
 /* !___________________________________________*/
-

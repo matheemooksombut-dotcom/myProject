@@ -245,6 +245,11 @@ a {
   transform: rotateZ(10deg);
   transition: 1s;
 }
+
+.brand-4:hover {
+  transform: rotateZ(10deg);
+  transition: 1s;
+}
 .unicon {
   color: brown;
 }

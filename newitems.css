@@ -21,53 +21,10 @@ body {
   font-weight: 200;
   font-style: normal;
   font-size: large;
-}
-/*! --------------------------  */
-.brand,
-.content {
-  width: 100%;
-  max-width: 1200px; /* ป้องกันไม่ให้กว้างเกิน */
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-.video-container {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; /* อัตราส่วน 16:9 */
-  height: 0;
-  overflow: hidden;
+
+
 }
 
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.brand {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-}
-
-.brand2 {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-}
-
-.banner-name {
-  font-family: "Titan One", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  font-size: x-large;
-  color: brown;
-  margin-right: 35px;
-}
 .nav-1 {
   padding: 10px;
   margin-top: 30px;
@@ -123,6 +80,38 @@ body {
 }
 
 /* !______________________________________________________ */
+
+.brand,.content {
+  width: 100%;
+  max-width: 1200px; /* ป้องกันไม่ให้กว้างเกิน */
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.brand {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.brand2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.banner-name {
+  font-family: "Titan One", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: x-large;
+  color: brown;
+  margin-right: 35px;
+}
+
 
 /*! content__________________________________________________  */
 

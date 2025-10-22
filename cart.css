@@ -131,13 +131,15 @@ a{
 /*!__________________________________________________  */
 
 
-.footer{
-  font-family: "SUSE Mono", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+.hero {
+  font-size: larger;
+  text-decoration: none;
+  color: black;
 }
 
+.hero:hover {
+  color: brown;
+}
 
 /* ! Brand Animation */
 
@@ -179,7 +181,8 @@ a{
   align-items: center;
   font-family: "Prompt", sans-serif;
   font-size: 18px;
-  transform: rotateY(180deg); /* 🔁 หมุนฝั่งข้อความไว้ล่วงหน้า */
+  transform: rotateY(180deg); /*  หมุนฝั่งข้อความไว้ล่วงหน้า */
+  border-radius: 100px;
   
 }
 
@@ -232,7 +235,8 @@ a{
   align-items: center;
   font-family: "Prompt", sans-serif;
   font-size: 18px;
-  transform: rotateY(180deg); /* 🔁 หมุนฝั่งข้อความไว้ล่วงหน้า */
+  transform: rotateY(180deg); /*  หมุนฝั่งข้อความไว้ล่วงหน้า */
+  border-radius: 100px;
 }
 
 /* เมื่อ hover กล่องหมุน */
@@ -285,7 +289,8 @@ a{
   align-items: center;
   font-family: "Prompt", sans-serif;
   font-size: 18px;
-  transform: rotateY(180deg); /* 🔁 หมุนฝั่งข้อความไว้ล่วงหน้า */
+  transform: rotateY(180deg); /*  หมุนฝั่งข้อความไว้ล่วงหน้า */
+  border-radius: 100px;
 }
 
 /* เมื่อ hover กล่องหมุน */
@@ -334,13 +339,25 @@ a{
   align-items: center;
   font-family: "Prompt", sans-serif;
   font-size: 18px;
-  transform: rotateY(180deg); /* 🔁 หมุนฝั่งข้อความไว้ล่วงหน้า */
+  transform: rotateY(180deg); /*  หมุนฝั่งข้อความไว้ล่วงหน้า */
+  border-radius: 100px;
 }
 
 /* เมื่อ hover กล่องหมุน */
 .brand-4:hover {
   transform: rotateY(180deg);
 }
+
+
+.footer{
+  font-family: "SUSE Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
 
 
 

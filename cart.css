@@ -150,7 +150,12 @@ a{
   perspective: 1000px;
   transform-style: preserve-3d;
   transition: transform 1s;
+  
+  
 }
+
+
+
 
 /* หน้า (front) */
 .brand-1::before,
@@ -163,11 +168,18 @@ a{
   backface-visibility: hidden; /*  ป้องกันกลับด้านตัวอักษร */
   top: 0;
   left: 0;
+  
 }
 
 /* ด้านหน้า */
 .brand-1::before {
-  background: linear-gradient(135deg, #ffd6e0, #1a2797d7);
+  background-image: url(https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_3.0/h_300,c_limit/0eb75c4b-5ea3-49bd-a83d-93773cc32a4d/air-max-97-by-you-custom-mens-shoes-kGNss8.png);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  display: block;
+
+  
 }
 
 /* ด้านหลัง */
@@ -221,7 +233,11 @@ a{
 
 /* ด้านหน้า */
 .brand-2::before {
-  background: linear-gradient(135deg, #ffd6e0, #1a2797d7);
+  background-image: url(https://hushlifeboutique.com/cdn/shop/files/97d0823400073fcd5bf22b01e0d2294d.png?v=1758217453);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  display: block;
 }
 
 /* ด้านหลัง */
@@ -275,7 +291,11 @@ a{
 
 /* ด้านหน้า */
 .brand-3::before {
-  background: linear-gradient(135deg, #ffd6e0, #1a2797d7);
+  background-image: url(https://www.istudio.store/cdn/shop/files/Apple_Watch_Series_10_46mm_GPS_Jet_Black_Aluminum_Sport_Band_Black_PDP_Image_Position_1__TH-TH.jpg?v=1726110038&width=823);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  display: block;
 }
 
 /* ด้านหลัง */
@@ -325,7 +345,11 @@ a{
 
 /* ด้านหน้า */
 .brand-4::before {
-  background: linear-gradient(135deg, #ffd6e0, #1a2797d7);
+  background-image: url(https://th-test-11.slatic.net/p/62f45945b6d56cf8ccdfaafb7c2f70fd.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  display: block;
 }
 
 /* ด้านหลัง */

@@ -122,6 +122,11 @@ body {
   column-gap: 10px;
   row-gap: 10px;
   grid-template-rows: auto;
+
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  
 }
 
 .content-1 {
@@ -134,12 +139,22 @@ body {
   grid-column: 1/5;
   grid-row: auto;
   background-color: burlywood;
+  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmA-hqMjyoXP5f8kF54bzP-rVMCMoCSOwZVg&s); */
+  /* background-repeat: no-repeat; */
   padding: 30px;
   border-radius: 50px;
 }
 .content-1 h2 {
   margin-right: 50px;
 }
+
+.content-1{
+  overflow: hidden;
+
+}
+
+
+
 
 /*!__________________________________________________  */
 
@@ -184,7 +199,17 @@ body {
   border-radius: 30px;
   transform-style: preserve-3d;
   transition: all 0.8s ease;
+  overflow: hidden;
   
+}
+
+.brand-1 img {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* ทำให้ภาพครอบเต็มกล่อง */
+  display: block;
+
 }
 
 
@@ -197,7 +222,19 @@ body {
   border-radius: 30px;
   transform-style: preserve-3d;
   transition: all 0.8s ease;
+  overflow: hidden;
 }
+
+.brand-2 img {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* ทำให้ภาพครอบเต็มกล่อง */
+  display: block;
+
+}
+
+
 
 .brand-3 {
   width: 200px;
@@ -207,6 +244,16 @@ body {
   border-radius: 30px;
   transform-style: preserve-3d;
   transition: all 0.8s ease;
+  overflow: hidden;
+}
+
+.brand-3 img {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* ทำให้ภาพครอบเต็มกล่อง */
+  display: block;
+
 }
 
 .brand-4 {
@@ -217,7 +264,24 @@ body {
   border-radius: 30px;
   transform-style: preserve-3d;
   transition: all 0.8s ease;
+  overflow: hidden;
+ 
+  
 }
+
+
+.brand-4 img {
+
+  width: 100%;
+  height: 100%;
+  object-fit: contain;  /* ทำให้ภาพครอบเต็มกล่อง */
+  display: block;
+   
+ 
+  
+
+}
+
 
 .brand2-1 {
   width: 200px;

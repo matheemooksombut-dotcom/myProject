@@ -1,0 +1,40 @@
+body{
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.box-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-rows: repeat(5,1fr);
+   
+    
+   
+    
+}
+
+
+.box-content-1{
+    text-align: center;
+    font-family: "Sigmar One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    margin-top: 100px;
+    height: 500px;
+    border-style: double;
+    border-width: 15px;
+    
+
+    grid-column: 1/5;
+    grid-row: 1/6;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 5px 10px rgb(248, 248, 248);
+    padding: 30px;
+    border-radius: 50px;
+}

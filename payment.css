@@ -38,3 +38,14 @@ body{
     padding: 30px;
     border-radius: 50px;
 }
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    column-gap: 200px;
+    justify-content: center;
+}
+
+button:hover{
+    box-shadow: 3px 2px 3px black;
+}
